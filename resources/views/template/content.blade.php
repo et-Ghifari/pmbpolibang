@@ -40,7 +40,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                <h2>Visi Misi</h2>
+                <h2>Visi & Misi</h2>
                 <br>
                 </div>
 
