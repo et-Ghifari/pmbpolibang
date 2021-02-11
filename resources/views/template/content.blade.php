@@ -219,7 +219,7 @@
                 <div class="section-title">
                 <h2>Progam Studi</h2>
                 <br>
-                <p>Program studi dibawah naungan Politeknik Balekambang Jepara</p>
+                <p>Program studi yang dimiliki Politeknik Balekambang Jepara</p>
                 </div>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
