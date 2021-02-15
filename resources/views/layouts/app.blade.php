@@ -2,66 +2,7 @@
 <html class="no-js" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Event | Kiaalap - Kiaalap Admin Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon
-		============================================ -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <!-- Google Fonts
-		============================================ -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
-    <!-- Bootstrap CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/bootstrap.min.css') }}">
-    <!-- Bootstrap CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/font-awesome.min.css') }}">
-    <!-- owl.carousel CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/owl.carousel.css') }}">
-    <link rel="stylesheet" href="{{asset ('ds/css/owl.theme.css') }}">
-    <link rel="stylesheet" href="{{asset ('ds/css/owl.transitions.css') }}">
-    <!-- animate CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/animate.css') }}">
-    <!-- normalize CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/normalize.css') }}">
-    <!-- meanmenu icon CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/meanmenu.min.css') }}">
-    <!-- main CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/main.css') }}">
-    <!-- educate icon CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/educate-custon-icon.css') }}">
-    <!-- morrisjs CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/morrisjs/morris.css') }}">
-    <!-- mCustomScrollbar CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/scrollbar/jquery.mCustomScrollbar.min.css') }}">
-    <!-- metisMenu CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/metisMenu/metisMenu.min.css') }}">
-    <link rel="stylesheet" href="{{asset ('ds/css/metisMenu/metisMenu-vertical.css') }}">
-    <!-- calendar CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/calendar/fullcalendar.min.css') }}">
-    <link rel="stylesheet" href="{{asset ('ds/css/calendar/fullcalendar.print.min.css') }}">
-    <!-- style CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/style.css') }}">
-    <!-- responsive CSS
-		============================================ -->
-    <link rel="stylesheet" href="{{asset ('ds/css/responsive.css') }}">
-    <!-- modernizr JS
-		============================================ -->
-    <script src="{{asset ('ds/js/vendor/modernizr-2.8.3.min.js') }}"></script>
+    @include('template.ahead')
 </head>
 
 <body>    
@@ -120,11 +61,21 @@
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
 															<img src="img/product/pro4.jpg" alt="" />
-															<span class="admin-name">Prof.Anderson</span>
+															<span class="admin-name">{{ Auth::user()->name }}</span>
 															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                        <li><a href="#"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                        
+                                                        <li>
+                                                            <a href="{{ route('logout') }}"
+                                                                onclick="event.preventDefault();
+                                                                                document.getElementById('logout-form').submit();">
+                                                                                <span class="edu-icon edu-locked author-log-ic"></span>Log Out
+                                                            </a>
+
+                                                            <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                                                @csrf
+                                                            </form>                                                            
                                                         </li>
                                                     </ul>
                                                 </li>                                                
@@ -559,59 +510,7 @@
         </div>
     </div>
 
-    <!-- jquery
-		============================================ -->
-    <script src="{{asset ('ds/js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <!-- bootstrap JS
-		============================================ -->
-    <script src="{{asset ('ds/js/bootstrap.min.js') }}"></script>
-    <!-- wow JS
-		============================================ -->
-    <script src="{{asset ('ds/js/wow.min.js') }}"></script>
-    <!-- price-slider JS
-		============================================ -->
-    <script src="{{asset ('ds/js/jquery-price-slider.js') }}"></script>
-    <!-- meanmenu JS
-		============================================ -->
-    <script src="{{asset ('ds/js/jquery.meanmenu.js') }}"></script>
-    <!-- owl.carousel JS
-		============================================ -->
-    <script src="{{asset ('ds/js/owl.carousel.min.js') }}"></script>
-    <!-- sticky JS
-		============================================ -->
-    <script src="{{asset ('ds/js/jquery.sticky.js') }}"></script>
-    <!-- scrollUp JS
-		============================================ -->
-    <script src="{{asset ('ds/js/jquery.scrollUp.min.js') }}"></script>
-    <!-- mCustomScrollbar JS
-		============================================ -->
-    <script src="{{asset ('ds/js/scrollbar/jquery.mCustomScrollbar.concat.min.js') }}"></script>
-    <script src="{{asset ('ds/js/scrollbar/mCustomScrollbar-active.js') }}"></script>
-    <!-- counterup JS
-		============================================ -->
-    <script src="{{asset ('ds/js/counterup/jquery.counterup.min.js') }}"></script>
-    <script src="{{asset ('ds/js/counterup/waypoints.min.js') }}"></script>
-    <script src="{{asset ('ds/js/counterup/counterup-active.js') }}"></script>
-    <!-- metisMenu JS
-		============================================ -->
-    <script src="{{asset ('ds/js/metisMenu/metisMenu.min.js') }}"></script>
-    <script src="{{asset ('ds/js/metisMenu/metisMenu-active.js') }}"></script>
-    <!-- morrisjs JS
-		============================================ -->
-    <script src="{{asset ('ds/js/sparkline/jquery.sparkline.min.js') }}"></script>
-    <script src="{{asset ('ds/js/sparkline/jquery.charts-sparkline.js') }}"></script>
-    <script src="{{asset ('ds/js/sparkline/sparkline-active.js') }}"></script>
-    <!-- calendar JS
-		============================================ -->
-    <script src="{{asset ('ds/js/calendar/moment.min.js') }}"></script>
-    <script src="{{asset ('ds/js/calendar/fullcalendar.min.js') }}"></script>
-    <script src="{{asset ('ds/js/calendar/fullcalendar-active.js') }}"></script>
-    <!-- plugins JS
-		============================================ -->
-    <script src="{{asset ('ds/js/plugins.js') }}"></script>
-    <!-- main JS
-		============================================ -->
-    <script src="{{asset ('ds/js/main.js') }}"></script>
+    @include('template.skrip')
 </body>
 
 </html>

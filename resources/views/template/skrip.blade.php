@@ -1,67 +1,60 @@
-<!-- Jquery Core Js -->
-<script src="{{asset('ds/plugins/jquery/jquery.min.js')}}"></script>
-
-<!-- Bootstrap Core Js -->
-<script src="{{asset('ds/plugins/bootstrap/js/bootstrap.js')}}"></script>
-
-<!-- Select Plugin Js -->
-<script src="{{asset('ds/plugins/bootstrap-select/js/bootstrap-select.js')}}"></script>
-
-<!-- Slimscroll Plugin Js -->
-<script src="{{asset('ds/plugins/jquery-slimscroll/jquery.slimscroll.js')}}"></script>
-
-<!-- Jquery Validation Plugin Css 
-<script src="{{asset('ds/plugins/jquery-validation/jquery.validate.js')}}"></script>
--->
-
-<!-- JQuery Steps Plugin Js 
-<script src="{{asset('ds/plugins/jquery-steps/jquery.steps.js')}}"></script>
--->
-
-<!-- Sweet Alert Plugin Js -->
-<script src="{{asset('ds/plugins/sweetalert/sweetalert.min.js')}}"></script>
-
-<!-- Waves Effect Plugin Js -->
-<script src="{{asset('ds/plugins/node-waves/waves.js')}}"></script>
-
-<!-- Jquery CountTo Plugin Js -->
-<script src="{{asset('ds/plugins/jquery-countto/jquery.countTo.js')}}"></script>
-
-<!-- Autosize Plugin Js 
-<script src="{{asset('ds/plugins/autosize/autosize.js')}}"></script>
--->
-
-<!-- Jquery DataTable Plugin Js -->
-<script src="{{asset('ds/plugins/jquery-datatable/jquery.dataTables.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/buttons.flash.min.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/jszip.min.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/pdfmake.min.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/vfs_fonts.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/buttons.html5.min.js')}}"></script>
-<script src="{{asset('ds/plugins/jquery-datatable/extensions/export/buttons.print.min.js')}}"></script>
-
-<!-- Morris Plugin Js -->
-<script src="{{asset('ds/plugins/raphael/raphael.min.js')}}"></script>
-<script src="{{asset('ds/plugins/morrisjs/morris.js')}}"></script>
-
-<!-- ChartJs -->
-<script src="{{asset('ds/plugins/chartjs/Chart.bundle.js')}}"></script>
-
-<!-- Flot Charts Plugin Js -->
-<script src="{{asset('ds/plugins/flot-charts/jquery.flot.js')}}"></script>
-<script src="{{asset('ds/plugins/flot-charts/jquery.flot.resize.js')}}"></script>
-<script src="{{asset('ds/plugins/flot-charts/jquery.flot.pie.js')}}"></script>
-<script src="{{asset('ds/plugins/flot-charts/jquery.flot.categories.js')}}"></script>
-<script src="{{asset('ds/plugins/flot-charts/jquery.flot.time.js')}}"></script>
-
-<!-- Sparkline Chart Plugin Js -->
-<script src="{{asset('ds/plugins/jquery-sparkline/jquery.sparkline.js')}}"></script>       
-
-<!-- Custom Js -->
-<script src="{{asset('ds/js/admin.js')}}"></script>
-<script src="{{asset('ds/js/pages/tables/jquery-datatable.js')}}"></script>
-
-<!-- Demo Js -->
-<script src="{{asset('ds/js/demo.js')}}"></script>
+    <!-- jquery
+		============================================ -->
+        <script src="{{asset ('ds/js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <!-- bootstrap JS
+		============================================ -->
+    <script src="{{asset ('ds/js/bootstrap.min.js') }}"></script>
+    <!-- wow JS
+		============================================ -->
+    <script src="{{asset ('ds/js/wow.min.js') }}"></script>
+    <!-- price-slider JS
+		============================================ -->
+    <script src="{{asset ('ds/js/jquery-price-slider.js') }}"></script>
+    <!-- meanmenu JS
+		============================================ -->
+    <script src="{{asset ('ds/js/jquery.meanmenu.js') }}"></script>
+    <!-- owl.carousel JS
+		============================================ -->
+    <script src="{{asset ('ds/js/owl.carousel.min.js') }}"></script>
+    <!-- sticky JS
+		============================================ -->
+    <script src="{{asset ('ds/js/jquery.sticky.js') }}"></script>
+    <!-- scrollUp JS
+		============================================ -->
+    <script src="{{asset ('ds/js/jquery.scrollUp.min.js') }}"></script>
+    <!-- mCustomScrollbar JS
+		============================================ -->
+    <script src="{{asset ('ds/js/scrollbar/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{asset ('ds/js/scrollbar/mCustomScrollbar-active.js') }}"></script>
+    <!-- counterup JS
+		============================================ -->
+    <script src="{{asset ('ds/js/counterup/jquery.counterup.min.js') }}"></script>
+    <script src="{{asset ('ds/js/counterup/waypoints.min.js') }}"></script>
+    <script src="{{asset ('ds/js/counterup/counterup-active.js') }}"></script>
+    <!-- metisMenu JS
+		============================================ -->
+    <script src="{{asset ('ds/js/metisMenu/metisMenu.min.js') }}"></script>
+    <script src="{{asset ('ds/js/metisMenu/metisMenu-active.js') }}"></script>
+    <!-- morrisjs JS
+		============================================ -->
+    <script src="{{asset ('ds/js/sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{asset ('ds/js/sparkline/jquery.charts-sparkline.js') }}"></script>
+    <script src="{{asset ('ds/js/sparkline/sparkline-active.js') }}"></script>
+    <!-- icheck JS
+		============================================ -->
+    <script src="{{asset ('ds/js/icheck/icheck.min.js') }}"></script>
+    <script src="{{asset ('ds/js/icheck/icheck-active.js') }}"></script>
+    <!-- calendar JS
+		============================================ -->
+    <script src="{{asset ('ds/js/calendar/moment.min.js') }}"></script>
+    <script src="{{asset ('ds/js/calendar/fullcalendar.min.js') }}"></script>
+    <script src="{{asset ('ds/js/calendar/fullcalendar-active.js') }}"></script>
+    <!-- plugins JS
+		============================================ -->
+    <script src="{{asset ('ds/js/plugins.js') }}"></script>
+    <!-- tab JS
+		============================================ -->
+        <script src="{{asset ('ds/js/tab.js') }}"></script>
+    <!-- main JS
+		============================================ -->
+    <script src="{{asset ('ds/js/main.js') }}"></script>

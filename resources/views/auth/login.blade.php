@@ -4,86 +4,66 @@
         @include('template.ahead')        
     </head>
 
-    <body class="login-page">
-        <div class="login-box">
-            <div class="logo">
-                <a href="javascript:void(0);">Log<b>in</b></a>
-                <small>PMB - Politeknik Balekambang</small>
-            </div>
-            <div class="card">
-                <div class="body">
-                    <form id="sign_in" method="POST" action="{{ route('login') }}">
+    <body>
+        <!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<div class="error-pagewrap">
+		<div class="error-page-int">
+			<div class="text-center m-b-md custom-login">
+				<h3>HARAP LOGIN KE APLIKASI</h3>
+				<p>PMB | POLIBANG</p>
+			</div>
+			<div class="content-error">
+				<div class="hpanel">
+                    <div class="panel-body">
+                        <form id="loginForm" method="POST" action="{{ route('login') }}">
                         @csrf
-                        <div class="msg">Masuk untuk memulai sesi anda</div>
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="material-icons">person</i>
-                            </span>
-                            <div class="form-line">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Email..." autofocus>                                    
-                            </div>
-                            @error('email')
+                            <div class="form-group">
+                                <label class="control-label" for="username">Email</label>
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="contoh@gmail.com" autofocus>
+                                <span class="help-block small">Email pengguna Anda untuk aplikasi</span>
+                                @error('email')
                                 <span class="col-red" role="alert">
                                     {{ $message }}
                                 </span>
-                            @enderror
-                        </div>
-                        
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="material-icons">lock</i>
-                            </span>
-                            <div class="form-line">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="Password..." required autocomplete="current-password">    
+                                @enderror
                             </div>
-                            @error('password')
+                            <div class="form-group">
+                                <label class="control-label" for="password">Password</label>
+                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="********" required autocomplete="current-password">
+                                <span class="help-block small">Password pengguna Anda untuk aplikasi</span>
+                                @error('password')
                                 <span class="col-red" role="alert">
                                     {{ $message }}
                                 </span>
-                            @enderror
-                        </div>
-
-                        
-                        <div class="row">
-                            <!--
-                            <div class="col-xs-8 p-t-5">
-                                <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
-                                <label for="rememberme">Remember Me</label>
+                                @enderror
                             </div>
-                            
-                            <div class="col-xs-4">
-                                <button class="btn btn-block bg-pink waves-effect" type="submit">SIGN IN</button>
+                            <div class="checkbox login-checkbox">
+                                <label>
+									<input type="checkbox" class="i-checks"> Remember me
+                                </label>
                             </div>
-                            -->
-                        </div>
-
-                        <button class="btn btn-block bg-pink waves-effect" type="submit">Masuk</button>
-                        <br></br>
-                        <center>
-                        <a href="{{ route('register') }}">Belum Punya Akun?</a>
-                        </center>
-                        
-
-                        <!--
-                        <div class="row m-t-15 m-b--20">
-                            <div class="col-xs-6">
-                                <a href="sign-up.html">Register Now!</a>
-                            </div>
-                            <div class="col-xs-6 align-right">
-                                <a href="forgot-password.html">Forgot Password?</a>
-                            </div>
-                        </div>
-                        -->
-                    </form>
+                            <button class="btn btn-success btn-block loginbtn">Login</button>
+                            <a class="btn btn-default btn-block" href="{{ route('register') }}">Buat Akun</a>
+                        </form>
+                    </div>
                 </div>
+			</div>
+
+            <br>
+
+            <div class="text-center">
+            <a href="{{ url('/') }}" type="button" class="btn btn-custon-rounded-three btn-default"><i class="fa fa-arrow-left edu-danger-error" aria-hidden="true"></i></a>
             </div>
-            <center>
-            <a type="button" href="{{ url('/') }}" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float">
-                <i class="material-icons">arrow_back</i>
-            </a>
-            </center>
-        </div>
-        @include('template.skrip')
+
+			<div class="text-center login-footer">
+				<p>Copyright © 2021. All rights reserved. By <a href="https://www.polibang.ac.id/">POLITEKNIK BALEKAMBANG JEPARA</a></p>
+			</div>
+		</div>   
+    </div>
+
+    @include('template.skrip')
     </body>
 </html>
 
