@@ -24,36 +24,43 @@
                                     <div class="form-group col-lg-12">
                                         <label>Nama</label>
                                         <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{ old('name') }}" required autocomplete="name" placeholder="nama..." autofocus>
+                                        @error('name')
+                                        <br>
+                                            <span class="alert alert-danger alert-mg-b" role="alert">
+                                                {{ $message }}
+                                            </span>
+                                        @enderror
                                     </div>
-                                    @error('name')
-                                        <span class="col-red" role="alert">
-                                            {{ $message }}
-                                        </span>
-                                    @enderror
+                                    
 
                                     <div class="form-group col-lg-12">
                                         <label>Email</label>
                                         <input type="text" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="email...">
+                                        @error('email')
+                                        <br>
+                                            <span class="alert alert-danger alert-mg-b" role="alert">
+                                                {{ $message }}
+                                            </span>
+                                        @enderror
                                     </div>
-                                    @error('email')
-                                        <span class="col-red" role="alert">
-                                            {{ $message }}
-                                        </span>
-                                    @enderror
+                                    
 
-                                    <div class="form-group col-lg-6">
+                                    <div class="form-group col-lg-12">
                                         <label>Password</label>
                                         <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="password..." required autocomplete="new-password">
+                                        @error('password')
+                                        <br>
+                                            <span class="alert alert-danger alert-mg-b" role="alert">
+                                                {{ $message }}
+                                            </span>
+                                        @enderror
                                     </div>
-                                    @error('password')
-                                        <span class="col-red" role="alert">
-                                            {{ $message }}
-                                        </span>
-                                    @enderror
+                                    
 
-                                    <div class="form-group col-lg-6">
+                                    <div class="form-group col-lg-12">
                                         <label>Confirm Password</label>
                                         <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="password konfirmasi..." required autocomplete="new-password">
+                                        
                                     </div>
                                     
                                     

@@ -22,9 +22,10 @@
                             <div class="form-group">
                                 <label class="control-label" for="username">Email</label>
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="contoh@gmail.com" autofocus>
-                                <span class="help-block small">Email pengguna Anda untuk aplikasi</span>
+                                
                                 @error('email')
-                                <span class="col-red" role="alert">
+                                <br>
+                                <span class="alert alert-danger alert-mg-b" role="alert">
                                     {{ $message }}
                                 </span>
                                 @enderror
@@ -32,9 +33,10 @@
                             <div class="form-group">
                                 <label class="control-label" for="password">Password</label>
                                     <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="********" required autocomplete="current-password">
-                                <span class="help-block small">Password pengguna Anda untuk aplikasi</span>
+                                
                                 @error('password')
-                                <span class="col-red" role="alert">
+                                <br>
+                                <span class="alert alert-danger alert-mg-b" role="alert">
                                     {{ $message }}
                                 </span>
                                 @enderror
