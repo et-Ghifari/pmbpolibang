@@ -69,7 +69,7 @@
                                     <button type="submit" class="btn btn-success loginbtn">
                                         {{ __('Buat Akun') }}
                                     </button>
-                                    <button type="reset" class="btn btn-default">Cancel</button>
+                                    <button type="reset" class="btn btn-default">Hapus</button>
                                 </div>
                             </form>
                         </div>
