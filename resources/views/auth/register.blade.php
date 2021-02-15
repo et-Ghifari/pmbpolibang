@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html class="no-js" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         @include('template.ahead')    
     </head>
@@ -62,7 +62,9 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-success loginbtn">Buat Akun</button>
+                                    <button type="submit" class="btn btn-success loginbtn">
+                                        {{ __('Buat Akun') }}
+                                    </button>
                                     <button type="reset" class="btn btn-default">Cancel</button>
                                 </div>
                             </form>
