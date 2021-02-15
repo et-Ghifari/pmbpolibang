@@ -20,7 +20,7 @@
                 &copy; Copyright <strong><span>POLITEKNIK BALEKAMBANG JEPARA</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
-                Designed by <a href="#">Team PMB POLIBANG</a>
+                Designed by <a href="{{ url('/') }}">PMB | POLIBANG</a>
             </div>
             </div>
         </footer><!-- End Footer -->

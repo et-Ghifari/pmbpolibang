@@ -11,8 +11,8 @@
 	<div class="error-pagewrap">
 		<div class="error-page-int">
 			<div class="text-center m-b-md custom-login">
-				<h3>HARAP LOGIN KE APLIKASI</h3>
-				<p>PMB | POLIBANG</p>
+				<h3>LOGIN</h3>
+				<p>PMB | Politeknik Balekambang</p>
 			</div>
 			<div class="content-error">
 				<div class="hpanel">
@@ -41,11 +41,7 @@
                                 </span>
                                 @enderror
                             </div>
-                            <div class="checkbox login-checkbox">
-                                <label>
-									<input type="checkbox" class="i-checks"> Remember me
-                                </label>
-                            </div>
+
                             <button class="btn btn-success btn-block loginbtn">Login</button>
                             <a class="btn btn-default btn-block" href="{{ route('register') }}">Buat Akun</a>
                         </form>
@@ -59,10 +55,11 @@
             <a href="{{ url('/') }}" type="button" class="btn btn-custon-rounded-three btn-default"><i class="fa fa-arrow-left edu-danger-error" aria-hidden="true"></i></a>
             </div>
 
-			<div class="text-center login-footer">
-				<p>Copyright © 2021. All rights reserved. By <a href="https://www.polibang.ac.id/">POLITEKNIK BALEKAMBANG JEPARA</a></p>
-			</div>
+			
 		</div>   
+    </div>
+    <div class="text-center login-footer">
+        &copy; Copyright <strong><span>POLITEKNIK BALEKAMBANG JEPARA</span></strong>. All Rights Reserved <a href="{{ url('/') }}">PMB | POLIBANG</a>
     </div>
 
     @include('template.skrip')

@@ -14,7 +14,7 @@ return [
     */
 
     'failed' => 'Email atau password yang dimasukan salah salah.',
-    'password' => 'Kata sandi yang diberikan salah.',
+    'password' => 'Kata sandi yang dimasukan salah.',
     'throttle' => 'Terlalu banyak upaya login. Silakan coba lagi :seconds detik.',
 
 ];

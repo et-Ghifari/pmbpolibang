@@ -2,7 +2,7 @@
 <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
     <div class="d-flex align-items-center">
-        <i class="icofont-clock-time"></i> Senin - Ahad, 08.00 - 16.00 WIB
+        <i class="icofont-clock-time"></i> Senin - Ahad, 08.00 - 15.00 WIB
     </div>
     <div class="d-flex align-items-center">
         <i class="icofont-phone"></i> Hubungi Kami +62 856-4111-1267
