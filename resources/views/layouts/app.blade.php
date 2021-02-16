@@ -17,10 +17,6 @@
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu">                        
                         <li>
-<<<<<<< HEAD
-                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Formulir</span></a>
-                        </li>
-=======
                             <a title="Landing Page" href="{{ url('home') }}" aria-expanded="false">
                                 <span class="educate-icon educate-home icon-wrap sub-icon-mg" aria-hidden="true"></span>
                                 <span class="mini-click-non">Informasi Pendaftaran</span>
@@ -62,7 +58,6 @@
                                 <span class="mini-click-non">Pengumuman</span>
                             </a>
                         </li>                        
->>>>>>> cf398dc14ec9aff4970715a7db6b04cf3afb2139
                     </ul>
                 </nav>
             </div>
