@@ -15,9 +15,48 @@
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
-                    <ul class="metismenu" id="menu1">                        
+                    <ul class="metismenu" id="menu">                        
                         <li>
-                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Formulir</span></a>
+                            <a title="Landing Page" href="{{ url('home') }}" aria-expanded="false">
+                                <span class="educate-icon educate-home icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Informasi Pendaftaran</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="{{ url('akun') }}" aria-expanded="false">
+                                <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Akun PMB Polibang</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="{{ url('pand') }}" aria-expanded="false">
+                                <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Panduan Pendaftaran</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="{{ url('rform') }}" aria-expanded="false">
+                                <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Rekap Pendaftar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="{{ url('form') }}" aria-expanded="false">
+                                <span class="educate-icon educate-data-table icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Formulir Pendaftaran</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="{{ url('up') }}" aria-expanded="false">
+                                <span class="educate-icon educate-data-table icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Upload Berkas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="{{ url('peng') }}" aria-expanded="false">
+                                <span class="educate-icon educate-info icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="mini-click-non">Pengumuman</span>
+                            </a>
                         </li>                        
                     </ul>
                 </nav>
@@ -25,6 +64,7 @@
         </nav>
     </div>
     <!-- End Left menu area -->
+
     <!-- Start Welcome area -->
     <div class="all-content-wrapper">
         <div class="container-fluid">
@@ -97,7 +137,15 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">                                        
-                                        <li><a href="events.html">Formulir</a></li>                                        
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li> 
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>
+                                        <li><a href="{{ url('form') }}">Formulir</a></li>                                       
                                     </ul>
                                 </nav>
                             </div>
@@ -108,393 +156,13 @@
             <!-- Mobile Menu end -->  
 
         </div>
-        <div class="calender-area mg-b-15">
+        <div class="breadcome-area">
             <div class="container-fluid">
             
             <br></br>
             <br>
-                <div class="content-error">
-                    <h2>
-                        Pendaftaran Politeknik Balekambang <span class="counter"> <?php echo date('Y'); ?> </span>
-                    </h2>
-                </div>               
-            
-                <div class="row">
-                <br>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="sparkline12-list">
-                        
-                        <form action="#">
-
-                            <div class="sparkline12-hd">
-                                <div class="main-sparkline12-hd">
-                                    <h1>A</h1>
-                                </div>
-                            </div>
-                            <div class="sparkline12-graph">
-                                <div class="basic-login-form-ad">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="all-form-element-inner">                                                
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Normal</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Support text</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Full Name</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Username</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Email</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="email" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Password</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="password" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Placeholder</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" placeholder="Placeholder" />
-                                                        </div>
-                                                    </div>
-                                                </div>                                                   
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br></br>
-
-                            <div class="sparkline12-hd">
-                                <div class="main-sparkline12-hd">
-                                    <h1>B</h1>
-                                </div>
-                            </div>
-                            <div class="sparkline12-graph">
-                                <div class="basic-login-form-ad">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="all-form-element-inner">                                                
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Normal</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Support text</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Full Name</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Username</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Email</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="email" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Password</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="password" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Placeholder</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" placeholder="Placeholder" />
-                                                        </div>
-                                                    </div>
-                                                </div>                                                   
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br></br>
-
-                            <div class="sparkline12-hd">
-                                <div class="main-sparkline12-hd">
-                                    <h1>C</h1>
-                                </div>
-                            </div>
-                            <div class="sparkline12-graph">
-                                <div class="basic-login-form-ad">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="all-form-element-inner">                                                
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Normal</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Support text</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Full Name</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Username</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Email</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="email" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Password</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="password" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Placeholder</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" placeholder="Placeholder" />
-                                                        </div>
-                                                    </div>
-                                                </div>                                                   
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br></br>
-
-                            <div class="sparkline12-hd">
-                                <div class="main-sparkline12-hd">
-                                    <h1>D</h1>
-                                </div>
-                            </div>
-                            <div class="sparkline12-graph">
-                                <div class="basic-login-form-ad">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="all-form-element-inner">                                                
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Normal</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Support text</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Full Name</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Username</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Email</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="email" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Password</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="password" class="form-control" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group-inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                            <label class="login2 pull-right pull-right-pro">Placeholder</label>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                            <input type="text" class="form-control" placeholder="Placeholder" />
-                                                        </div>
-                                                    </div>
-                                                </div>                                                   
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group-inner">
-                                <div class="login-btn-inner">
-                                    <div class="row">
-                                        <div class="col-lg-3"></div>
-                                        <div class="col-lg-9">
-                                            <div class="login-horizental cancel-wp pull-left form-bc-ele">
-                                                <button class="btn btn-white" type="submit">Cancel</button>
-                                                <button class="btn btn-sm btn-primary login-submit-cs" type="submit">Save Change</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </form>
-
-                        </div>
-                    </div>
-                </div>
+                
+                @yield('content')
             </div>
         </div>
         <div class="footer-copyright-area">

@@ -55,4 +55,9 @@ class HomeController extends Controller
     {
         return view('content.peng');
     }
+
+    public function up()
+    {
+        return view('content.upload');
+    }
 }

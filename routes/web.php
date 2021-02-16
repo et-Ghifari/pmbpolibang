@@ -26,3 +26,4 @@ Route::get('/pand', [App\Http\Controllers\HomeController::class, 'pand'])->name(
 Route::get('/rform', [App\Http\Controllers\HomeController::class, 'rform'])->name('rform');
 Route::get('/form', [App\Http\Controllers\HomeController::class, 'form'])->name('form');
 Route::get('/peng', [App\Http\Controllers\HomeController::class, 'peng'])->name('peng');
+Route::get('/up', [App\Http\Controllers\HomeController::class, 'up'])->name('up');
