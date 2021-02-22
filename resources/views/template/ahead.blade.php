@@ -9,8 +9,8 @@
     <title>PMB | POLIBANG</title>
 
     <!-- Favicons -->
-    <link href="{{asset('hm/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('hm/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset ('hm/img/favicon.png') }}" rel="icon">
+    <link href="{{asset ('hm/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts
 		============================================ -->
