@@ -10,8 +10,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="index.html"><img class="main-logo" src="{{asset ('ds/img/logo/logo.png') }}" alt="" /></a>
-                <strong><a href="index.html"><img src="{{asset ('ds/img/logo/logosn.png') }}" alt="" /></a></strong>
+                <a href="{{ url('/') }}"><img class="main-logo" src="{{asset ('ds/img/logo/logo.png') }}" alt="" /></a>
+                <strong><a href="{{ url('/') }}"><img src="{{asset ('ds/img/logo/logosn.png') }}" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index.html"><img class="main-logo" src="{{asset ('ds/img/logo/logo.png') }}" alt="" /></a>
+                        <a href="{{ url('/') }}"><img class="main-logo" src="{{asset ('ds/img/logo/logo.png') }}" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                                                             <a href="{{ route('logout') }}"
                                                                 onclick="event.preventDefault();
                                                                                 document.getElementById('logout-form').submit();">
-                                                                                <span class="edu-icon edu-locked author-log-ic"></span>Log Out
+                                                                                Log Out
                                                             </a>
 
                                                             <form id="logout-form" action="{{ route('logout') }}" method="POST">
