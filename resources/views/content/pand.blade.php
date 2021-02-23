@@ -1,81 +1,188 @@
 @extends('home')
 
 @section('content') 
-    <section class="content">
-        <div class="container-fluid">
-            <div class="block-header">
-                <h2>
-                    PANDUAN PENDAFTARAN                    
-                </h2>
-            </div>
-            <!-- Basic Validation -->
-            <div class="row clearfix">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
-                        <div class="header">
-                            <h2>BASIC VALIDATION</h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="javascript:void(0);">Action</a></li>
-                                        <li><a href="javascript:void(0);">Another action</a></li>
-                                        <li><a href="javascript:void(0);">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="body">
-                            <form id="form_validation" method="POST">
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" name="name" required>
-                                        <label class="form-label">Name</label>
-                                    </div>
-                                </div>
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" name="surname" required>
-                                        <label class="form-label">Surname</label>
-                                    </div>
-                                </div>
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                        <input type="email" class="form-control" name="email" required>
-                                        <label class="form-label">Email</label>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="radio" name="gender" id="male" class="with-gap">
-                                    <label for="male">Male</label>
-
-                                    <input type="radio" name="gender" id="female" class="with-gap">
-                                    <label for="female" class="m-l-20">Female</label>
-                                </div>
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                        <textarea name="description" cols="30" rows="5" class="form-control no-resize" required></textarea>
-                                        <label class="form-label">Description</label>
-                                    </div>
-                                </div>
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                        <input type="password" class="form-control" name="password" required>
-                                        <label class="form-label">Password</label>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="checkbox" id="checkbox" name="checkbox">
-                                    <label for="checkbox">I have read and accept the terms</label>
-                                </div>
-                                <button class="btn btn-primary waves-effect" type="submit">SUBMIT</button>
-                            </form>
+    <div class="content-error">
+        <h2>
+        Panduan Pendaftaran Politeknik Balekambang
+        </h2>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
+            <div>
+                <div class="sparkline8-hd">
+                    <div class="main-sparkline8-hd">
+                        <h1>Langkah 1</h1>                        
+                        <div class="col-md-5 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="{{asset('hm/img/doctors/tahap1.png')}}" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+            <div>
+                <div class="sparkline9-hd">
+                    <div class="main-sparkline9-hd">
+                        <h1>Keterangan</h1>
+                        <div class="col-md-7 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
+            <div>
+                <div class="sparkline8-hd">
+                    <div class="main-sparkline8-hd">
+                        <h1>Langkah 2</h1>                        
+                        <div class="col-md-5 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="{{asset('hm/img/doctors/tahap2.png')}}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+            <div>
+                <div class="sparkline9-hd">
+                    <div class="main-sparkline9-hd">
+                        <h1>Keterangan</h1>
+                        <div class="col-md-7 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
+            <div>
+                <div class="sparkline8-hd">
+                    <div class="main-sparkline8-hd">
+                        <h1>Langkah 3</h1>                        
+                        <div class="col-md-5 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="{{asset('hm/img/doctors/tahap3.png')}}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+            <div>
+                <div class="sparkline9-hd">
+                    <div class="main-sparkline9-hd">
+                        <h1>Keterangan</h1>
+                        <div class="col-md-7 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
+            <div>
+                <div class="sparkline8-hd">
+                    <div class="main-sparkline8-hd">
+                        <h1>Langkah 4</h1>                        
+                        <div class="col-md-5 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="{{asset('hm/img/doctors/tahap4.png')}}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+            <div>
+                <div class="sparkline9-hd">
+                    <div class="main-sparkline9-hd">
+                        <h1>Keterangan</h1>
+                        <div class="col-md-7 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
+            <div>
+                <div class="sparkline8-hd">
+                    <div class="main-sparkline8-hd">
+                        <h1>Langkah 5</h1>                        
+                        <div class="col-md-5 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="{{asset('hm/img/doctors/tahap5.png')}}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+            <div>
+                <div class="sparkline9-hd">
+                    <div class="main-sparkline9-hd">
+                        <h1>Keterangan</h1>
+                        <div class="col-md-7 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
+            <div>
+                <div class="sparkline8-hd">
+                    <div class="main-sparkline8-hd">
+                        <h1>Langkah 6</h1>                        
+                        <div class="col-md-5 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="{{asset('hm/img/doctors/tahap6.png')}}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+            <div>
+                <div class="sparkline9-hd">
+                    <div class="main-sparkline9-hd">
+                        <h1>Keterangan</h1>
+                        <div class="col-md-7 col-lg-12 align-items-stretch mb-5 mb-lg-0">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     @endsection
