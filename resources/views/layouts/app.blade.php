@@ -24,19 +24,19 @@
                         </li>
                         <li>
                             <a title="Landing Page" href="{{ url('akun') }}" aria-expanded="false">
-                                <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="educate-icon educate-landing icon-wrap sub-icon-mg" aria-hidden="true"></span>
                                 <span class="mini-click-non">Akun PMB Polibang</span>
                             </a>
                         </li>
                         <li>
                             <a title="Landing Page" href="{{ url('pand') }}" aria-expanded="false">
-                                <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="educate-icon educate-info icon-wrap sub-icon-mg" aria-hidden="true"></span>
                                 <span class="mini-click-non">Panduan Pendaftaran</span>
                             </a>
                         </li>
                         <li>
                             <a title="Landing Page" href="{{ url('rform') }}" aria-expanded="false">
-                                <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="educate-icon educate-library icon-wrap sub-icon-mg" aria-hidden="true"></span>
                                 <span class="mini-click-non">Rekap Pendaftar</span>
                             </a>
                         </li>
@@ -48,13 +48,13 @@
                         </li>
                         <li>
                             <a title="Landing Page" href="{{ url('up') }}" aria-expanded="false">
-                                <span class="educate-icon educate-data-table icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="educate-icon educate-project icon-wrap sub-icon-mg" aria-hidden="true"></span>
                                 <span class="mini-click-non">Upload Berkas</span>
                             </a>
                         </li>
                         <li>
                             <a title="Landing Page" href="{{ url('peng') }}" aria-expanded="false">
-                                <span class="educate-icon educate-info icon-wrap sub-icon-mg" aria-hidden="true"></span>
+                                <span class="educate-icon educate-bell icon-wrap sub-icon-mg" aria-hidden="true"></span>
                                 <span class="mini-click-non">Pengumuman</span>
                             </a>
                         </li>                        
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                        <a href="index.html"><img class="main-logo" src="{{asset ('ds/img/logo/logo.png') }}" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">                                                
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															<img src="img/product/pro4.jpg" alt="" />
+															<img src="{{asset ('ds/img/product/login.png') }}" alt="" />
 															<span class="admin-name">{{ Auth::user()->name }}</span>
 															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
 														</a>
@@ -159,9 +159,7 @@
         <div class="breadcome-area">
             <div class="container-fluid">
             
-            <br></br>
-            <br>
-                
+            <br></br>                
                 @yield('content')
             </div>
         </div>
