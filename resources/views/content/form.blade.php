@@ -16,7 +16,7 @@
 
                             <div class="sparkline12-hd">
                                 <div class="main-sparkline12-hd">
-                                    <h1>A. Informasi pribadi calon Mahasiswa</h1>
+                                    <h1>A. Informasi Pribadi Calon Mahasiswa</h1>
                                 </div>
                             </div>
                             <div class="sparkline12-graph">
