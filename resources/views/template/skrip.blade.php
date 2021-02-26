@@ -49,6 +49,17 @@
     <script src="{{asset ('ds/js/calendar/moment.min.js') }}"></script>
     <script src="{{asset ('ds/js/calendar/fullcalendar.min.js') }}"></script>
     <script src="{{asset ('ds/js/calendar/fullcalendar-active.js') }}"></script>
+    <!-- datapicker JS
+		============================================ -->
+    <script src="{{asset ('ds/js/datapicker/bootstrap-datepicker.js') }}"></script>
+    <script src="{{asset ('ds/js/datapicker/datepicker-active.js') }}"></script>
+    <!-- input-mask JS
+		============================================ -->
+    <script src="{{asset ('ds/js/input-mask/jasny-bootstrap.min.js') }}"></script>
+    <!-- touchspin JS
+		============================================ -->
+    <script src="{{asset ('ds/js/touchspin/jquery.bootstrap-touchspin.min.js') }}"></script>
+    <script src="{{asset ('ds/js/touchspin/touchspin-active.js') }}"></script>
     <!-- plugins JS
 		============================================ -->
     <script src="{{asset ('ds/js/plugins.js') }}"></script>

@@ -68,6 +68,14 @@
     <link rel="stylesheet" href="{{asset ('ds/css/calendar/fullcalendar.min.css') }}">
     <link rel="stylesheet" href="{{asset ('ds/css/calendar/fullcalendar.print.min.css') }}">
 
+    <!-- touchspin CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{asset ('ds/css/touchspin/jquery.bootstrap-touchspin.min.css') }}">
+
+    <!-- datapicker CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{asset ('ds/css/datapicker/datepicker3.css') }}">
+
     <!-- forms CSS
 		============================================ -->
     <link rel="stylesheet" href="{{asset ('ds/css/form/all-type-forms.css') }}">
