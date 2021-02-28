@@ -64,10 +64,11 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                                                    <div class="form-group data-custon-pick" id="data_3">                                                            
-                                                        <div class="input-group date">
-                                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                                            <input type="text" name="tanggallahir" class="form-control" placeholder="1/1/2004">
+                                                        <div class="form-group data-custon-pick" id="data_3">                                                            
+                                                            <div class="input-group date">
+                                                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                                                <input type="text" name="tanggallahir" class="form-control" placeholder="1/1/2004">
+                                                            </div>
                                                         </div>
                                                     </div>                                                        
                                                 </div>
@@ -138,7 +139,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="input-group">
-                                                            <input type="text" name="beratbadan" class="form-control" placeholder="isi angka..." />
+                                                            <input type="text" name="berat" class="form-control" placeholder="isi angka..." />
                                                             <span class="input-group-addon">KG</span>
                                                         </div>
                                                     </div>
@@ -151,7 +152,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="input-group">
-                                                            <input type="text" name="tinggibadan" class="form-control" placeholder="isi angka..." />
+                                                            <input type="text" name="tinggi" class="form-control" placeholder="isi angka..." />
                                                             <span class="input-group-addon">CM</span>
                                                         </div>
                                                     </div>
@@ -314,9 +315,16 @@
                                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                                                         <label class="login2 pull-right pull-right-pro">Asal Sekolah</label>
                                                     </div>
-                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" name="asalsekolah" class="form-control" placeholder="asal sekolah..." />
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="form-select-list">
+                                                            <input type="text" name="sekolah" class="form-control" placeholder="sekolah...">
+                                                        </div>
                                                     </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <div class="form-select-list">
+                                                            <input type="text" name="jurusan" class="form-control" placeholder="jurusan...">
+                                                        </div>
+                                                    </div>                                                        
                                                 </div>
                                             </div>
                                             <div class="form-group-inner">
@@ -546,7 +554,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Cabang Lomba</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" name="cabanglomba" class="form-control" placeholder="cabang lomba..." />
+                                                        <input type="text" name="lomba" class="form-control" placeholder="cabang lomba..." />
                                                     </div>
                                                 </div>
                                             </div>
