@@ -29,7 +29,7 @@
                                                         <label class="login2 pull-right pull-right-pro">NISN</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="nisn..." />
+                                                        <input type="text" name="nisn" class="form-control" placeholder="nisn..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -39,7 +39,7 @@
                                                         <label class="login2 pull-right pull-right-pro">NIK</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="nik..." />
+                                                        <input type="text" name="nik" class="form-control" placeholder="nik..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -49,7 +49,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Nama Lengkap</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="nama lengkap..." />
+                                                        <input type="text" name="nama" class="form-control" placeholder="nama lengkap..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -60,14 +60,14 @@
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <input type="text" class="form-control" placeholder="tempat...">
+                                                            <input type="text" name="tempatlahir" class="form-control" placeholder="tempat...">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                                                     <div class="form-group data-custon-pick" id="data_3">                                                            
                                                         <div class="input-group date">
                                                             <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                                            <input type="text" class="form-control" placeholder="1/1/2004">
+                                                            <input type="text" name="tanggallahir" class="form-control" placeholder="1/1/2004">
                                                         </div>
                                                     </div>                                                        
                                                 </div>
@@ -83,7 +83,7 @@
                                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                                     <div class="i-checks pull-left">
                                                                         <label>
-                                                                                <input type="radio" value="L" name="kelamin"> <i></i>Laki - Laki</label>
+                                                                        <input type="radio" value="L" name="kelamin"> <i></i>Laki - Laki</label>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -91,7 +91,7 @@
                                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                                     <div class="i-checks pull-left">
                                                                         <label>
-                                                                                <input type="radio" value="P" name="kelamin"> <i></i>Perempuan</label>
+                                                                        <input type="radio" value="P" name="kelamin"> <i></i>Perempuan</label>
                                                                     </div>
                                                                 </div>
                                                             </div>                                                                
@@ -105,7 +105,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Hobi</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="hobi..." />
+                                                        <input type="text" name="hobi" class="form-control" placeholder="hobi..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -115,7 +115,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Cita - Cita</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="cita-cita..." />
+                                                        <input type="text" name="cita" class="form-control" placeholder="cita-cita..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -138,7 +138,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="input-group">
-                                                            <input type="text" class="form-control" placeholder="isi angka..." />
+                                                            <input type="text" name="beratbadan" class="form-control" placeholder="isi angka..." />
                                                             <span class="input-group-addon">KG</span>
                                                         </div>
                                                     </div>
@@ -151,7 +151,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="input-group">
-                                                            <input type="text" class="form-control" placeholder="isi angka..." />
+                                                            <input type="text" name="tinggibadan" class="form-control" placeholder="isi angka..." />
                                                             <span class="input-group-addon">CM</span>
                                                         </div>
                                                     </div>
@@ -176,7 +176,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="provinsi">
                                                                 <option>--Pilih Provinsi--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -193,7 +193,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="kabupaten">
                                                                 <option>--Pilih Kabupaten--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -210,7 +210,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="kecamatan">
                                                                 <option>--Pilih Kecamatan--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -227,7 +227,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="desa">
                                                                 <option>--Pilih Desa--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -249,7 +249,7 @@
                                                                     <div>
                                                                         <div class="input-group">
                                                                             <span class="input-group-addon">RT</span>
-                                                                            <input type="text" placeholder="rt..." class="form-control">
+                                                                            <input type="text" name="rt" placeholder="rt..." class="form-control">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -259,7 +259,7 @@
                                                                     <div>
                                                                         <div class="input-group">
                                                                             <span class="input-group-addon">RW</span>
-                                                                            <input type="text" placeholder="rw..." class="form-control">
+                                                                            <input type="text" name="rw" placeholder="rw..." class="form-control">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -269,12 +269,22 @@
                                                                     <div>
                                                                         <div class="input-group">
                                                                             <span class="input-group-addon">Kodepos</span>
-                                                                            <input type="text" placeholder="kodepos..." class="form-control">
+                                                                            <input type="text" name="kodepos" placeholder="kodepos..." class="form-control">
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group-inner">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <label class="login2 pull-right pull-right-pro"></label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                                        <input type="text" name="alamat" class="form-control" placeholder="alamat/jln./dll..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -290,7 +300,7 @@
                                                                     <div>
                                                                         <div class="input-group">
                                                                             <span class="input-group-addon">+62</span>
-                                                                            <input type="text" placeholder="isi nomor..." class="form-control">
+                                                                            <input type="text" name="telephone" placeholder="isi nomor..." class="form-control">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -305,7 +315,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Asal Sekolah</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="asal sekolah..." />
+                                                        <input type="text" name="asalsekolah" class="form-control" placeholder="asal sekolah..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -318,7 +328,7 @@
                                                             </div>
                                                             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                                 <div class="input-mark-inner mg-b-22">
-                                                                    <input type="text" class="form-control" data-mask="9-99-99-99-999-999-9" placeholder="no. skhun...">                                                                    
+                                                                    <input type="text" name="skhun" class="form-control" data-mask="9-99-99-99-999-999-9" placeholder="no. skhun...">                                                                    
                                                                 </div>
                                                             </div>
                                                         </div>                                                        
@@ -331,7 +341,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Tahun Lulus</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="tahun lulus..." />
+                                                        <input type="text" name="tahunlulus" class="form-control" placeholder="tahun lulus..." />
                                                     </div>
                                                 </div>
                                             </div>                                                 
@@ -354,11 +364,11 @@
                                             <div class="form-group-inner">
                                                 <div class="row">
                                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                        <label class="login2 pull-right pull-right-pro">Pilih Jurusan</label>
+                                                        <label class="login2 pull-right pull-right-pro">Pilih Prodi</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="prodi">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -375,7 +385,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="kelas">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -408,7 +418,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Nama Ayah</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="nama ayah..." />
+                                                        <input type="text" name="ayah" class="form-control" placeholder="nama ayah..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -419,7 +429,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="pekerjaanayah">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -436,7 +446,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="pendidikanayah">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -455,7 +465,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Nama Ibu</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="nama ibu..." />
+                                                        <input type="text" name="ibu" class="form-control" placeholder="nama ibu..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -466,7 +476,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="pekerjaanibu">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -483,7 +493,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="pendidikanibu">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -503,7 +513,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="penghasilan">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -536,7 +546,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Cabang Lomba</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="cabang lomba..." />
+                                                        <input type="text" name="cabanglomba" class="form-control" placeholder="cabang lomba..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -547,7 +557,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="tingkat">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -564,7 +574,7 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="account">
+                                                            <select class="form-control custom-select-value" name="peringkat">
                                                                 <option>--Pilih--</option>
                                                                 <option>Select 2</option>
                                                                 <option>Select 3</option>
@@ -580,7 +590,7 @@
                                                         <label class="login2 pull-right pull-right-pro">Tahun Lomba</label>
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <input type="text" class="form-control" placeholder="tahun lomba..." />
+                                                        <input type="text" name="tahunlomba" class="form-control" placeholder="tahun lomba..." />
                                                     </div>
                                                 </div>
                                             </div>
@@ -604,7 +614,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <br>
 
                         </form>
