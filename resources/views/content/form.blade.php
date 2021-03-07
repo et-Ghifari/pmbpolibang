@@ -12,11 +12,60 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div>
                         
-                        <form action="#">
+                        <form action="#">                            
 
                             <div class="sparkline12-hd">
                                 <div class="main-sparkline12-hd">
-                                    <h1>A. Informasi Pribadi Calon Mahasiswa</h1>
+                                    <h1>A. Pilihan Program Studi</h1>
+                                </div>
+                            </div>
+                            <div class="sparkline12-graph">                                
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="all-form-element-inner">
+                                            <div class="form-group-inner">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <label class="login2 pull-right pull-right-pro">Pilih Prodi</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                                        <div class="form-select-list">
+                                                            <select class="form-control custom-select-value" name="prodi">
+                                                                <option>--Pilih--</option>
+                                                                <option value="RPL">Rekayasa Perangkat Lunak</option>
+                                                                <option value="AKB">Administrasi Bisnis Internasional</option>
+                                                                <option value="AKP">Akutansi Keuangan Publik</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>                                                        
+                                                </div>
+                                            </div> 
+                                            <div class="form-group-inner">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <label class="login2 pull-right pull-right-pro">Pilih Kelas</label>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                                        <div class="form-select-list">
+                                                            <select class="form-control custom-select-value" name="kelas">
+                                                                <option>--Pilih--</option>
+                                                                <option value="Reguler">Reguler</option>
+                                                                <option value="Karyawan">Karyawan</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>                                                        
+                                                </div>
+                                            </div>                           
+                                        </div>                                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br></br>
+
+                            <div class="sparkline12-hd">
+                                <div class="main-sparkline12-hd">
+                                    <h1>B. Informasi Pribadi Calon Mahasiswa</h1>
                                 </div>
                             </div>
                             <div class="sparkline12-graph">                                
@@ -356,58 +405,7 @@
                                         </div>
                                     </div>
                                 </div>                                
-                            </div>
-
-                            <br></br>
-
-                            <div class="sparkline12-hd">
-                                <div class="main-sparkline12-hd">
-                                    <h1>B. Pilihan Program Studi</h1>
-                                </div>
-                            </div>
-                            <div class="sparkline12-graph">                                
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="all-form-element-inner">
-                                            <div class="form-group-inner">
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                        <label class="login2 pull-right pull-right-pro">Pilih Prodi</label>
-                                                    </div>
-                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="prodi">
-                                                                <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>                                                        
-                                                </div>
-                                            </div> 
-                                            <div class="form-group-inner">
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                                        <label class="login2 pull-right pull-right-pro">Pilih Kelas</label>
-                                                    </div>
-                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                                        <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="kelas">
-                                                                <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>                                                        
-                                                </div>
-                                            </div>                           
-                                        </div>                                                        
-                                    </div>
-                                </div>
-                            </div>
-                                                
+                            </div>                                                
 
                             <br></br>
 
@@ -439,9 +437,16 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="pekerjaanayah">
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option value="Buruh">Buruh</option>
+                                                                <option value="Dosen">Dosen</option>
+                                                                <option value="Guru">Guru</option>
+                                                                <option value="Nelayan">Nelayan</option>
+                                                                <option value="Pegawai Swasta">Pegawai Swasta</option>
+                                                                <option value="Petani">Petani</option>
+                                                                <option value="PNS">PNS</option>
+                                                                <option value="Supir">Supir</option>
+                                                                <option value="Tukang">Tukang</option>
+                                                                <option value="Wiraswasta">Wiraswasta</option>                                                                
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -456,9 +461,17 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="pendidikanayah">
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option value="SD/MI">SD/MI</option>
+                                                                <option value="SMP/MTs">SMP/MTs</option>
+                                                                <option value="SMA/MA/SMK">SMA/MA/SMK</option>
+                                                                <option value="D1">D1</option>
+                                                                <option value="D2">D2</option>
+                                                                <option value="D3">D3</option>
+                                                                <option value="D4">D4</option>
+                                                                <option value="S1">S1</option>
+                                                                <option value="S2">S2</option>
+                                                                <option value="S3">S3</option>
+                                                                <option value="Pesantren">Pesantren</option>
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -484,11 +497,18 @@
                                                     </div>
                                                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                         <div class="form-select-list">
-                                                            <select class="form-control custom-select-value" name="pekerjaanibu">
+                                                            <select class="form-control custom-select-value" name="pekerjaanibu">                                                                
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option value="Buruh">Buruh</option>
+                                                                <option value="Dosen">Dosen</option>
+                                                                <option value="Guru">Guru</option>
+                                                                <option value="Nelayan">Nelayan</option>
+                                                                <option value="Pegawai Swasta">Pegawai Swasta</option>
+                                                                <option value="Petani">Petani</option>
+                                                                <option value="PNS">PNS</option>
+                                                                <option value="Supir">Supir</option>
+                                                                <option value="Tukang">Tukang</option>
+                                                                <option value="Wiraswasta">Wiraswasta</option>  
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -503,9 +523,17 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="pendidikanibu">
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option value="SD/MI">SD/MI</option>
+                                                                <option value="SMP/MTs">SMP/MTs</option>
+                                                                <option value="SMA/MA/SMK">SMA/MA/SMK</option>
+                                                                <option value="D1">D1</option>
+                                                                <option value="D2">D2</option>
+                                                                <option value="D3">D3</option>
+                                                                <option value="D4">D4</option>
+                                                                <option value="S1">S1</option>
+                                                                <option value="S2">S2</option>
+                                                                <option value="S3">S3</option>
+                                                                <option value="Pesantren">Pesantren</option>
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -523,9 +551,12 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="penghasilan">
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option value="< 500 Ribu">< 500 Ribu</option>
+                                                                <option value="500 Ribu - 1 Juta">500 Ribu - 1 Juta</option>
+                                                                <option value="1 Juta - 2 Juta">1 Juta - 2 Juta</option>
+                                                                <option value="2 Juta - 3 Juta">2 Juta - 3 Juta</option>
+                                                                <option value="3 Juta - 5 Juta">3 Juta - 5 Juta</option>
+                                                                <option value="> 5 Juta">> 5 Juta</option>
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -541,7 +572,7 @@
 
                             <div class="sparkline12-hd">
                                 <div class="main-sparkline12-hd">
-                                    <h1>D. Informasi prestasi Calon Mahasiswa</h1>
+                                    <h1>D. Informasi Prestasi Calon Mahasiswa</h1>
                                 </div>
                             </div>
                             <div class="sparkline12-graph">                                
@@ -567,9 +598,11 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="tingkat">
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option>Kecamatan</option>
+                                                                <option>Kabupaten</option>
+                                                                <option>Provinsi</option>
+                                                                <option>Nasioanl</option>
+                                                                <option>Internasional</option>                                                                
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -584,9 +617,10 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="peringkat">
                                                                 <option>--Pilih--</option>
-                                                                <option>Select 2</option>
-                                                                <option>Select 3</option>
-                                                                <option>Select 4</option>
+                                                                <option>Juara I</option>
+                                                                <option>Juara II</option>
+                                                                <option>Juara III</option>
+                                                                <option>Juara Harapan</option>
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -615,8 +649,8 @@
                                         <div class="col-lg-3"></div>
                                         <div class="col-lg-9">
                                             <div class="login-horizental cancel-wp pull-left form-bc-ele">
-                                                <button class="btn btn-white" type="submit">Cancel</button>
-                                                <button class="btn btn-sm btn-primary login-submit-cs" type="submit">Save Change</button>
+                                                <button class="btn btn-white" type="reset">Hapus</button>
+                                                <button class="btn btn-sm btn-primary login-submit-cs" type="submit">Daftar</button>
                                             </div>
                                         </div>
                                     </div>

@@ -34,12 +34,12 @@ class CreateMahasiswasTable extends Migration
             $table->string('tinggi', 5);
             $table->string('alamat', 150);
             $table->string('rt', 5);
-            $table->string('rw', 5);
-            $table->string('kodepos', 8);
+            $table->string('rw', 5);            
             $table->string('desa', 50);
             $table->string('kecamatan', 50);
             $table->string('kabupaten', 50);
-            $table->string('provinsi', 50);      
+            $table->string('provinsi', 50);
+            $table->string('kodepos', 8);      
             $table->string('telephone', 15);
             $table->string('sekolah', 50);
             $table->string('jurusan', 50);

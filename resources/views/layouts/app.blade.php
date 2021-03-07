@@ -168,7 +168,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-copy-right">
-                            <p>Copyright © 2018. All rights reserved. Template by <a href="https://colorlib.com/wp/templates/">Colorlib</a></p>
+                            &copy; Copyright <strong><span>POLITEKNIK BALEKAMBANG JEPARA</span></strong>. All Rights Reserved Designed by
+                            <a href="{{ url('/') }}">PMB | POLIBANG</a>
                         </div>
                     </div>
                 </div>
