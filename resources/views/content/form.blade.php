@@ -598,11 +598,11 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="tingkat">
                                                                 <option>--Pilih--</option>
-                                                                <option>Kecamatan</option>
-                                                                <option>Kabupaten</option>
-                                                                <option>Provinsi</option>
-                                                                <option>Nasioanl</option>
-                                                                <option>Internasional</option>                                                                
+                                                                <option value="Kecamatan">Kecamatan</option>
+                                                                <option value="Kabupaten">Kabupaten</option>
+                                                                <option value="Provinsi">Provinsi</option>
+                                                                <option value="Nasioanl">Nasioanl</option>
+                                                                <option value="Internasional">Internasional</option>                                                                
                                                             </select>
                                                         </div>
                                                     </div>                                                        
@@ -617,10 +617,10 @@
                                                         <div class="form-select-list">
                                                             <select class="form-control custom-select-value" name="peringkat">
                                                                 <option>--Pilih--</option>
-                                                                <option>Juara I</option>
-                                                                <option>Juara II</option>
-                                                                <option>Juara III</option>
-                                                                <option>Juara Harapan</option>
+                                                                <option value="Juara I">Juara I</option>
+                                                                <option value="Juara II">Juara II</option>
+                                                                <option value="Juara III">Juara III</option>
+                                                                <option value="Juara Harapan">Juara Harapan</option>
                                                             </select>
                                                         </div>
                                                     </div>                                                        
